@@ -1,8 +1,9 @@
- ____      _  ____           ____  _______     _______ _     ___  ____  __  __ _____ _   _ _____ 
-|  _ \    | |/ ___|         |  _ \| ____\ \   / / ____| |   / _ \|  _ \|  \/  | ____| \ | |_   _|
-| | | |_  | | |      _____  | | | |  _|  \ \ / /|  _| | |  | | | | |_) | |\/| |  _| |  \| | | |  
-| |_| | |_| | |___  |_____| | |_| | |___  \ V / | |___| |__| |_| |  __/| |  | | |___| |\  | | |  
-|____/ \___/ \____|         |____/|_____|  \_/  |_____|_____\___/|_|   |_|  |_|_____|_| \_| |_|  
+
+ ____      _  ____           ____  _______     __
+|  _ \    | |/ ___|         |  _ \| ____\ \   / /
+| | | |_  | | |      _____  | | | |  _|  \ \ / / 
+| |_| | |_| | |___  |_____| | |_| | |___  \ V /  
+|____/ \___/ \____|         |____/|_____|  \_/  
 
 ##### Project Name
 AWS Log Processor
@@ -25,7 +26,9 @@ To use this code, follow the instructions below:
 7.	Create a CloudWatch Logs trigger for the Lambda function.
 8.	Configure the trigger to associate the function with the desired log group and log streams that you want to process.
 9.	Save the Lambda function.
+    
 Once you have set up the code and made the necessary modifications, the Lambda function is ready to process log data. The function will be triggered automatically whenever new log events are added to the specified log group.
+
 When the function is triggered, it performs the following steps:
 1.	Retrieves the log data from the CloudWatch Logs event.
 2.	Decompresses the log data using the zlib library.
