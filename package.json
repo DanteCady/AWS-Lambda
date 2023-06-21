@@ -1,0 +1,10 @@
+{
+  "name": "RSS-Conversational-Export",
+  "version": "1.0.0",
+  "description": "This function will allow conversational logs from AWS Lex to be compiled and exported to S3",
+    "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.0.0",
+    "zlib": "^1.0.5"
+  }
+}
