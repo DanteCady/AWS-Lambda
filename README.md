@@ -12,10 +12,13 @@ Description
 This code is designed to process log data from CloudWatch Logs and upload the processed logs to an Amazon S3 bucket. The code is written in JavaScript and utilizes the AWS SDK to interact with AWS services.
 
 ##### Author
+
 Dante Cady
 Publish Date
 June 21, 2023
+
 ##### Instructions
+
 To use this code, follow the instructions below:
 1.	Set up an AWS account if you don't have one already.
 2.	Create an AWS Lambda function in the AWS Management Console.
@@ -42,6 +45,7 @@ Please ensure that your AWS credentials and permissions are correctly set up to 
 For any issues or errors encountered during the log processing, the Lambda function will log the error message and return an appropriate response with the corresponding status code.
 For more information on setting up and managing AWS Lambda functions, refer to the AWS Lambda documentation.
 For more information on configuring CloudWatch Logs triggers, refer to the AWS CloudWatch documentation.
+
 License
 This project is licensed under the MIT License.
 
