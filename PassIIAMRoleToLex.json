@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "iam:PassRole",
+            "Resource": "arn:aws:iam::account-id:role/role-name",
+            "Condition": {
+                "StringEquals": {
+                    "iam:PassedToService": "lex.amazonaws.com"
+                },
+                "StringLike": {
+                    "iam:AssociatedResourceARN": "arn:aws:lex:region:account-id:bot:bot-name:bot-alias"
+                }
+            }
+        }
+    ]
+}
