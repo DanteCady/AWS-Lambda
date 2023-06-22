@@ -1,5 +1,5 @@
 {
-  "name": "RSS-Conversational-Export",
+  "name": "AWS-Lex-Conversational-Export",
   "version": "1.0.0",
   "description": "This function will allow conversational logs from AWS Lex to be compiled and exported to S3",
     "type": "module",
