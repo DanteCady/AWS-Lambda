@@ -6,10 +6,10 @@
 |____/ \___/ \____|         |____/|_____|  \_/  
 
 ##### Project Name
-AWS Log Processor
+AWS Lex Conversational Log Processor
 
 Description
-This code is designed to process log data from CloudWatch Logs and upload the processed logs to an Amazon S3 bucket. The code is written in JavaScript and utilizes the AWS SDK to interact with AWS services.
+This code is designed to process log data from AWS Lex CloudWatch Logs and upload the processed logs to an Amazon S3 bucket as a text file. The code is written in JavaScript and utilizes the AWS SDK to interact with AWS services.
 
 ##### Author
 
@@ -41,6 +41,7 @@ When the function is triggered, it performs the following steps:
 6.	Creates a new S3 folder based on the session ID.
 7.	Uploads the formatted text to the newly created folder in the specified S3 bucket.
 8.	Returns a response indicating the completion status of the log processing.
+   
 Please ensure that your AWS credentials and permissions are correctly set up to allow the Lambda function to access the necessary AWS services (e.g., CloudWatch Logs, S3).
 For any issues or errors encountered during the log processing, the Lambda function will log the error message and return an appropriate response with the corresponding status code.
 For more information on setting up and managing AWS Lambda functions, refer to the AWS Lambda documentation.
